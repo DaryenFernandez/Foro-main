@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Nombre del foro + icono</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header>
+    <ion-searchbar placeholder="Buscar"></ion-searchbar>
+  </ion-header>
+
+  <div>
+    <ion-segment value="buttons">
+      <ion-segment-button value="inicio">
+        <ion-label>Inicio</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="foros">
+        <ion-label>Foros</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="noticias">
+        <ion-label>Noticias</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+</ion-content>
